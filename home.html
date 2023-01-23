@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IRIS PREDICTION</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <style>
+      body {
+        background-image: url("/static/images/irisimage.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="input form">
+      <form formaction="/predict.html" method="post" id="input head">
+        <h1 id="heading">PREDICTION OF IRIS DATA</h1>
+        <br />
+        <h3 id="input">Sepal Length</h3>
+        <input type="text" id="sepal_length" placeholder="0.00" />
+        <br />
+        <h3 id="input">Sepal Width</h3>
+        <input type="text" id="sepal_width" placeholder="0.00" />
+        <br />
+        <h3 id="input">Petal Length</h3>
+        <input type="text" id="petal_length" placeholder="0.00" />
+        <br />
+        <h3 id="input">Petal Width</h3>
+        <input type="text" id="petal_width" placeholder="0.00" />
+        <br />
+        <br />
+        <button id="Submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
